@@ -10,6 +10,7 @@ Social service officers often go through difficult scenarios where there is a ne
 The prototype aims to explore in this sector on whether an online guided simulation can give officers a way to practice conversations and receive structured feedback in a lower-risk environment.
 
 ## 3. System Architecture
+At a high level, the application is organized as
 
 ## 4. Key Features
 
