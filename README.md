@@ -15,8 +15,6 @@ At a high level, the application is organized in 3 different layers:
 2. Business Layer - RESTful API, Conversational AI Service, Scenario Dialogue Service, Gamification Service, Assessment Engine
 3. Persistence Layer - Cloud Data Storage, Physical Data Storage, Temporary Data Storage <br>
 <img width="588" height="677" alt="image" src="https://github.com/user-attachments/assets/97e0c7ea-9e17-4f13-ba53-a1be5ae64be3" />
-                                  *System Architecture*
-
 
 The browser interface uses HTML, CSS and JavaScript. A Flask application handles the web pages and main application workflow which connects to AI speech services and stores scenarios/sessions/user information. Redis is used as temporarily cache management.
 
