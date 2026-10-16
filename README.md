@@ -10,7 +10,13 @@ Social service officers often go through difficult scenarios where there is a ne
 The prototype aims to explore in this sector on whether an online guided simulation can give officers a way to practice conversations and receive structured feedback in a lower-risk environment.
 
 ## 3. System Architecture
-At a high level, the application is organized as
+At a high level, the application is organized in 3 different layers:
+1. Presentation Layer - Web application
+2. Business Layer - RESTful API, Conversational AI Service, Scenario Dialogue Service, Gamification Service, Assessment Engine
+3. Persistence Layer - Cloud Data Storage, Physical Data Storage, Temporary Data Storage <br>
+See here for the full system architecture [System Architecture]()
+
+The browser interface uses HTML, CSS and JavaScript. A Flask application handles the web pages and main application workflow which connects to AI speech services and stores scenarios/sessions/user information. Redis is used as temporarily cache management.
 
 ## 4. Key Features
 
