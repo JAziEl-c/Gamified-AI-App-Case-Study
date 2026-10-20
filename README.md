@@ -13,14 +13,14 @@ The prototype aims to explore in this sector on whether an online guided simulat
 
 The system follows a modular, three-tier architectural pattern:
 
-**Presentation Layer:** Responsive web client interfacing with backend services over secure HTTPS.
-**Business & Service Layer:** Modular services orchestrated via a RESTful API:
-   *Conversational AI Service:* Manages speech-to-text, text-to-speech, and dialogue state.
-   *Scenario Dialogue Service:* Handles branching decision paths and interactive scenario logic.
-   *Gamification & Assessment Engine:* Evaluates user performance metrics and tracks progress milestones.
-**Persistence Layer:** 
-   *Relational / Document Store:* Long-term persistence for user profiles, scenario configurations, and assessment history.
-   *Caching Layer:* In-memory storage for active session states and transient dialogue contexts. <br>
+- **Presentation Layer:** Responsive web client interfacing with backend services over secure HTTPS.
+- **Business & Service Layer:** Modular services orchestrated via a RESTful API:
+   - *Conversational AI Service:* Manages speech-to-text, text-to-speech, and dialogue state.
+   - *Scenario Dialogue Service:* Handles branching decision paths and interactive scenario logic.
+   - *Gamification & Assessment Engine:* Evaluates user performance metrics and tracks progress milestones.
+- **Persistence Layer:** 
+   - *Relational / Document Store:* Long-term persistence for user profiles, scenario configurations, and assessment history.
+   - *Caching Layer:* In-memory storage for active session states and transient dialogue contexts. <br>
 
 The browser interface uses HTML, CSS and JavaScript. A Flask application handles the web pages and main application workflow which connects to AI speech services and stores scenarios/sessions/user information. Redis is used as temporarily cache management.
 
